@@ -1,0 +1,45 @@
+        .form-group {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #0056b3;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 14px 18px;
+            border: 2px solid #bbdefb;
+            border-radius: 12px;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 0 4px rgba(0,123,255,0.15);
+        }
+        textarea {
+            min-height: 140px;
+            resize: vertical;
+        }
+        .btn-whatsapp {
+            background: #25D366;
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
+            padding: 16px 40px;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        .btn-whatsapp:hover {
+            background: #128C7E;
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(37, 211, 102, 0.5);
+        }
+        .obrigatorio {
+            color: #d32f2f;
+        }
